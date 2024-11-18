@@ -1,7 +1,7 @@
 # SIFT-ObjectDetect
 
 <h1>Deteccion de Objetos utilizando el algortmo SIFT</h1>
-<h3>Este programa utiliza la tecnica de "Brute-Force Matching with ORB Descriptors", detallada en la parte de abajo</h3>
+<h3>Este programa utiliza la tecnica de "Brute-Force Matching with ORB Descriptors", detallada en la parte de abajo:</h3>
 
 <h4> *Brute-Force Matching with ORB Descriptors*</h4>
 
