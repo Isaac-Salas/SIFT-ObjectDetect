@@ -5,7 +5,7 @@ Created on Sun Nov 17 17:48:52 2024
 @author: Isok
 """
 
-import numpy as np
+#import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
@@ -66,14 +66,15 @@ def showMatches(imagelist):
         
 def automate(comparenum,view, trainkey, traindes, trainimg, lable, show):
     comparepath = path + (str(comparenum))+'__'+str(view)+'.png'
-    img1 = cv2.imread(comparepath,0) 
+    img1 = cv2.imread(comparepath,0)
     kp1, des1 = orb.detectAndCompute(img1,None)
     trmatch = compare(traindes,des1)
     FINALIMG, percentage = drawMatches(trainimg, trainkey, img1, kp1, trmatch, lable)
     if show == True:
         showMatches(FINALIMG)
     else:
-        pass
+        plt.imshow(img1),plt.show()
+                
     return percentage,lable
 
 def sortDict(dict1):
@@ -151,7 +152,7 @@ itlist = [[tomkey, tomdes, tomimg, 'Barquito Amarillo', showimg],
 
 #Numero en str de vista (Comparar)
 numview = 0
-numobj = 7
+numobj = 28
 
 
 porcentajes = {}
