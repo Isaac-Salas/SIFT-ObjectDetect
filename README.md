@@ -40,4 +40,4 @@ plt.imshow(img3),plt.show()
 Below is the result I got:
 
 
-[![Imagen y descripcion proporcionadas por: OpenCV](https://docs.opencv.org/4.x/matcher_result1.jpg)]
+![Imagen y descripcion proporcionadas por: OpenCV](https://docs.opencv.org/4.x/matcher_result1.jpg)
