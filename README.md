@@ -42,7 +42,7 @@ plt.imshow(img3),plt.show()
 
 ### Adaptando esto, obtenemos:
 
-![Imagen](images/Ranagif.gif)
+![Imagen](images/Ranacomp.gif)
 
 
 # Funcionalidad del codigo:
