@@ -48,4 +48,4 @@ plt.imshow(img3),plt.show()
 # Funcionalidad del codigo:
 
 El codigo en si viene con varios comentarios que pueden ser utiles para entender el funcionamiento del programa.
-![Tambien anexo un reporte que elabore que explica todo a mas detalle aun](material_extra/documents/Isaac-Salas_VpC-T5.pdf)
+![Tambien anexo un reporte que elabore que explica todo a mas detalle aun, espero eso ayude!!!](material_extra/documents/Isaac-Salas_VpC-T5.pdf)
