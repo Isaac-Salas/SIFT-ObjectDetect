@@ -42,9 +42,10 @@ plt.imshow(img3),plt.show()
 
 ### Adaptando esto, obtenemos:
 
-![Imagen](images/Ranacomp.gif)
+![Imagen](material_extra/images/Ranacomp.gif)
 
 
 # Funcionalidad del codigo:
 
-
+El codigo en si viene con varios comentarios que pueden ser utiles para entender el funcionamiento del programa.
+![Tambien anexo un reporte que elabore que explica todo a mas detalle aun](material_extra/documents/Isaac-Salas_VpC-T5.pdf)
