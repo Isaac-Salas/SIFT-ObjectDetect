@@ -74,7 +74,6 @@ def automate(comparenum,view, trainkey, traindes, trainimg, lable, show):
         showMatches(FINALIMG)
     else:
         plt.imshow(img1),plt.show()
-                
     return percentage,lable
 
 def sortDict(dict1):
@@ -135,7 +134,7 @@ sankey, sandes, sanimg = training(22,view,trainpath)
 frekey, fredes, freimg = training(75,view,trainpath)
 patkey, patdes, patimg = training(74,view,trainpath)
 carkey, cardes, carimg = training(91,view,trainpath)
-showimg = True
+showimg = False
 
 
 itlist = [[tomkey, tomdes, tomimg, 'Barquito Amarillo', showimg], 
